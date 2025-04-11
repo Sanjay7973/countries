@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.dark body {
+    background-color: #1a202c ;
+    color: #ffffff ; 
+  }
+  .dark header {
+    background-color: #1a202c;
+    color: #ffffff; 
+  }
